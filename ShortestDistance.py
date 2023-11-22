@@ -63,4 +63,4 @@ def min_distance_strip(points: list[tuple[int, int]], min_distance: float):
 if __name__ == "__main__":
     points = [(4, 6), (8, 16), (18, 20), (10, 12), (2, 18), (14, 8), (16, 10), (6, 14), (12, 6), (10, 16), (12, 18)]
     result = closest_pair(points)
-    print(The closest points:", result)
+    print("The closest points:", result)
